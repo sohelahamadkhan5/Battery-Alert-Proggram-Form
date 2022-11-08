@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "baloo bhai 2";
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    background-color: aliceblue;
+}
+
+body{
+    height: 86vh;
+    width: 100%;
+    /* background-image: url("/Images/monile.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-clip: content-box; */
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    text-align: center;
+    /* padding: 23px; */
+    height: 100%;
+}
+.container .form-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.container .form-text{
+    color:tomato;
+    font-size: 12px;
+    
+}
+
+.container .form-text h1{
+    padding-top: 33px;
+    letter-spacing: 1.2px;
+    color:lightseagreen;
+}
+
+.container .form-body form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.container .form-body form h3{
+    font-weight:bold;
+    color:cornflowerblue;
+    font-size: 13px;
+    align-self: baseline;
+}
+
+.container .form-body form .fillings{
+    background-color: transparent;
+    border: solid 1px lightseagreen;
+}
+
+.form-body form input , textarea{
+    border-radius: 4px;
+    max-width: 90%;
+    width: 15rem;
+    height: 5vh;
+    margin: 12px 0 ;
+    text-align: center;
+    background-color: lightseagreen;
+    border: none;
+    color: black;
+}
+.form-body form textarea{
+    height: 15vh;
+}
+
+.btn{
+    cursor: pointer;
+    height: 8vh;
+    padding: 6px 0;
+    font-size: 13px;
+    width: 5rem;
+}
+.btn:active{
+    background-color:rgb(30, 169, 162);
+    font-size: 11px;
+    transition: 0.0s;
+
+}
